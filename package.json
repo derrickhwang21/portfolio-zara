@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-zara",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhwang21/portfolio-zara.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhwang21/portfolio-zara/issues"
+  },
+  "homepage": "https://github.com/dhwang21/portfolio-zara#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "dotenv": "^6.1.0"
+  }
+}
