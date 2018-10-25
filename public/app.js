@@ -5,7 +5,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("scrollHide").style.backgroundColor = "transparent";
   } else {
-    document.getElementById("scrollHide").style.backgroundColor = "blue";
+    document.getElementById("scrollHide").style.backgroundColor = "gray";
   }
   prevScrollpos = currentScrollPos;
 }
