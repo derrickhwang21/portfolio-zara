@@ -1,11 +1,20 @@
 /* *{
     outline: 1px dotted orange;
 } */
+
 body {
     padding-bottom: 3rem;
     color: #5a5a5a;
   }
   
+
+header{
+    height: 100vh;
+}
+.view{
+    height: 100%;
+
+}   
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
