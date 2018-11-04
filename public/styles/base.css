@@ -1,0 +1,223 @@
+/* *{
+    outline: 1px dotted orange;
+} */
+
+body {
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+  
+
+  #header {
+    background: url("../styles/image/jumbo3.jpg") repeat scroll center center / cover;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  
+  #header .header-content {
+    height: 100vh;
+    text-align: right;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .header-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .header-content p {
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .header-content .list-social li {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  .header-content .list-social li i {
+    color: #fff;
+    font-size: 15px;
+  }
+
+#navigation-bar{
+  position: fixed;
+  z-index: 1000;
+  color: white;
+  background-color: white;
+  width: 100%;
+  height: 10vh;
+  border-bottom: 1px solid black;
+  
+}
+
+nav ul li a {
+  padding: 2px 0 0 0;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  color: #999999;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.nav-link{
+}
+
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+  
+}
+.navbar-brand {
+  display: inline-block;
+  border: 2px solid #fff;
+  padding: 5px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+
+  
+}
+.navbrand-color{
+  color: black
+}
+.view{
+    height: 100%;
+  
+}   
+
+
+.about-me{
+  margin: 5rem 0;
+}
+
+.section-skills{
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-heading {
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 10; }
+  .section-heading h2 {
+    position: relative;
+    font-weight: 200;
+    padding-top: 20px;
+    font-size: 30px; }
+    .section-heading h2 strong {
+      font-weight: 800; }
+    .section-heading h2:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 2px;
+      width: 50px;
+      background: #57d131;
+      z-index: -1; }
+  .section-heading.text-center h2:before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+
+.lead {
+  font-weight: 200;
+  line-height: 1.5; }
+
+  input[type=text] {
+
+    box-sizing: border-box;
+    border: none;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid black;
+}
+textarea[type=text]{
+  border: none;
+
+  background-color: #f8f9fa;
+  border-bottom: 2px solid black;
+  background-color: #f8f9fa;
+
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
+
