@@ -1,0 +1,111 @@
+/* ----------------------------------------------------------------
+ 	  Responsive 
+-----------------------------------------------------------------*/
+@media screen and (max-width: 991px) {
+    .mb-md50 {
+      margin-bottom: 50px;
+    }
+  
+    .mb-md30 {
+      margin-bottom: 30px;
+    }
+  
+    .mb-md0 {
+      margin-bottom: 0;
+    }
+  
+    .bg-fixed {
+      background-attachment: scroll !important;
+    }
+  
+    .navbar {
+      padding-left: 15px;
+    }
+    .navbar .navbar-collapse {
+      max-height: 340px;
+      overflow: auto;
+      background: #111;
+      text-align: center;
+      padding: 10px 0;
+    }
+    .navbar .nav-link {
+      margin: 10px auto !important;
+    }
+  
+    .nav-scroll .navbar-collapse .nav-link {
+      color: #fff !important;
+    }
+  
+    .header {
+      background-attachment: scroll !important;
+      background-position: 50% 0% !important;
+    }
+    .header .caption h4 {
+      font-size: 30px;
+    }
+    .header .caption h1 {
+      font-size: 45px;
+      line-height: 1.4;
+    }
+  
+    .hero .author-img {
+      margin-bottom: 80px;
+    }
+  
+    .hero .content {
+      padding-left: 0;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .mb-sm50 {
+      margin-bottom: 50px;
+    }
+  
+    .mb-sm30 {
+      margin-bottom: 30px;
+    }
+  
+    .section-head h4 {
+      font-size: 20px;
+    }
+  
+    .header .caption h1 {
+      font-size: 25px;
+    }
+  
+    .portfolio .filtering span {
+      margin-bottom: 10px;
+    }
+  
+    .blog .item .content h5 {
+      line-height: 1.4;
+    }
+  
+    .contact .form {
+      text-align: center;
+    }
+    .contact .form .info {
+      text-align: center;
+      display: block;
+      width: 100%;
+    }
+    .contact .form .info span {
+      display: block;
+      margin-bottom: 15px;
+      margin-right: 0;
+    }
+    .contact .form .butn {
+      margin-bottom: 10px;
+      float: none;
+      text-align: center;
+    }
+  
+    footer .social a {
+      margin: 15px 5px;
+      font-size: 16px;
+    }
+    footer p {
+      line-height: 1.8;
+    }
+  }

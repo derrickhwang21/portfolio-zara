@@ -3,311 +3,510 @@
 
 <head>
     <title>Zara Huang</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link href="public/styles/reset.css" rel="stylesheet" type="text/css" />
-    <link href="public/styles/base.css" rel="stylesheet" type="text/css" />
-    <link href="/styles/module.css" rel="stylesheet" type="text/css" />
-    <link href="/styles/layout.css" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="public/styles/image/favicon.png" type="image/x-icon" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link href="public/styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="public/styles/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="public/styles/base.css" rel="stylesheet" type="text/css" />
+    <link href="public/styles/module.css" rel="stylesheet" type="text/css" />
+    <link href="public/styles/layout.css" rel="stylesheet" type="text/css" />
+
+
 </head>
 
 <body>
 
-    <header>
-        <nav id="navigation-bar" class="navbar navbar-expand-lg navbar-light navbar-1">
-            <a class="navbar-brand border border-dark px-1 py-1" href="#">Zara</a>
-            <button class="navbar-toggler border border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-                aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span
-                    class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-                <ul class="navbar-nav ml-auto ">
-                    <li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
-                    <li class="nav-item mr-5"><a class="nav-link" href="#">Work</a></li>
+    <!-- =====================================
+    	==== Start Loading -->
+
+    <div class="loading">
+        <div class="text-center middle">
+            <div class="lds-ellipsis">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Loading ====
+            ======================================= -->
+
+
+    <!-- =====================================
+            ==== Start Navbar -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="logo" href="#">
+                Zara H.
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-scroll-nav="0">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav="1">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav="2">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav="3">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav="4">Contact</a>
+                    </li>
                 </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <div id="header" class="home">
+    <!-- End Navbar ====
+        ======================================= -->
 
-            <div class="container">
-                <div class="header-content wow zoomInLeft">
-                    <h1>Zara Huang</h1>
-                    <p>Sr. Global PR Manager</p>
+    <header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="6" data-background="public/styles/image/jumbo3.jpg"
+        data-stellar-background-ratio="0.5">
 
-                    <ul class="list-unstyled list-social">
-                        <li><a href="#"><i class="fa fa-linkedin fa-lg white-text fa-1x"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter fa-lg white-text fa-1x"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook fa-lg white-text fa-1x"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram fa-lg white-text fa-1x"></i></a></li>
-                    </ul>
+        <div class="svg">
+            <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                <polygon points="-30,300 355.167,210.5 1432.5,290 1920,198.5 1920,300"></polygon>
+            </svg>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="full-width text-left caption mt-30">
+                    <h1 class="cd-headline clip">
+                        <span>I Am </span>
+                        <span class="cd-words-wrapper">
+                            <b class="is-visible">Zara Huang</b>
+                            <b>Global PR Manager</b>
+                            <b>Tech Lady</b>
+                        </span>
+                    </h1>
                 </div>
             </div>
+            <div class="list-unstyled list-social">
+                <span><a href="#"><i class="fab fa-linkedin"></i></a></span>
+                <span><a href="#"><i class="fab fa-twitter"></i></a></span>
+                <span><a href="#"><i class="fab fa-facebook"></i></a></span>
+                <span><a href="#"><i class="fab fa-instagram"></i></a></span>
+            </div>
         </div>
-        <!-- Full Page Intro -->
+
+
+        <div class="arrow bounce" data-scroll-nav="1">
+            <img src="public/img/down-chevron.svg" alt="">
+        </div>
+
     </header>
 
-    <section class="about-me my-5 pt-5">
+    <!-- End Header ====
+    	======================================= -->
+
+    <!-- =====================================
+        ==== Start Hero -->
+
+    <section class="hero section-padding" data-scroll-index="1">
         <div class="container">
-            <div class="row mb-5 align-items-center">
-                <div class="col-lg-5 pr-lg-5 mb-3 mb-lg-0">
-                    <img src="public/styles/image/zara.jpg" alt="Image placeholder" class="wow bounceInUp img-fluid z-depth-4 rounded-circle">
-                </div>
-                <div class="col-lg-5 pl-lg-5">
-                    <div class="section-heading wow jackInTheBox">
-                        <h2>About <strong>Me</strong></h2>
-                    </div>
-                    <p class="lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
-                        language ocean.</p>
-                    <p class="mb-5  ">A small river named Duden flows by their place and supplies it with the necessary
-                        regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your
-                        mouth.</p>
-
-                    <p>
-                        <a href="#section-contact" class="btn btn-success btn-rounded px-4 py-2 ">Connect!</a>
-                        <a href="#" class="btn btn-outline-dark px-4 py-2">Download CV</a>
-                    </p>
-                </div>
-            </div>
-    </section>
-
-
-
-
-
-    <section class="section-skills bg-light">
-
-        <h2 class="h1-responsive font-weight-bold mb-3">Why is it so great?</h2>
-        <p class="lead grey-text w-responsive mx-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        <div class="container  my-5">
-            <div class="row skills-container my-5 ">
-                <div class="col-md-4 wow slideInRight">
-                    <i class="fa fa-area-chart fa-3x red-text"></i>
-                    <h5 class="font-weight-bold my-4">Analytics</h5>
-
-                </div>
-                <div class="col-md-4 wow slideInRight">
-                    <i class="fa fa-book fa-3x cyan-text"></i>
-                    <h5 class="font-weight-bold my-4">Tutorials</h5>
-
-                </div>
-                <div class="col-md-4 wow slideInRight">
-                    <i class="fa fa-comments-o fa-3x orange-text"></i>
-                    <h5 class="font-weight-bold my-4">Support</h5>
-
-                </div>
-            </div>
-
-            <div class="row skills-container my-5">
-                <div class="col-md-4 wow slideInLeft">
-                    <i class="fa fa-area-chart fa-3x red-text"></i>
-                    <h5 class="font-weight-bold my-4">Analytics</h5>
-
-                </div>
-                <div class="col-md-4 wow slideInLeft">
-                    <i class="fa fa-book fa-3x cyan-text"></i>
-                    <h5 class="font-weight-bold my-4">Tutorials</h5>
-
-                </div>
-                <div class="col-md-4 wow slideInLeft">
-                    <i class="fa fa-comments-o fa-3x orange-text"></i>
-                    <h5 class="font-weight-bold my-4">Support</h5>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="my-5 ">
-
-        <h2 class="h1-responsive font-weight-bold text-center my-5">Recent work</h2>
-        <p class="text-center w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-            qui officia deserunt mollit anim id est laborum.</p>
-        <div class="row mx-5 wow slideInRight">
-            <div class="col-lg-3">
-                <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                    <img class="img-fluid" src="public/styles/image/work1.jpg
-                    " Sample image">
-                </div>
-
-            </div>
-
-            <div class="col-lg-7">
-
-                <a href="#!" class="green-text">
-                    <h6 class="font-weight-bold mb-3"><i class="fa fa-cutlery pr-2"></i>Food</h6>
-                </a>
-                <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
-                    maxime
-                    placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis
-                    debitis.</p>
-                <p>by <a><strong>Carine Fox</strong></a>, 19/08/2018</p>
-                <a class="btn btn-success btn-md">Read more</a>
-            </div>
-        </div>
-
-        <hr class="my-5">
-
-        <div class="row mx-5 wow slideInLeft">
-
-            <div class="col-lg-7">
-                <a href="#!" class="pink-text">
-                    <h6 class="font-weight-bold mb-3"><i class="fa fa-image pr-2"></i>Lifestyle</h6>
-                </a>
-                <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                    deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
-                    provident.</p>
-                <p>by <a><strong>Carine Fox</strong></a>, 14/08/2018</p>
-                <a class="btn btn-pink btn-md mb-lg-0 mb-4">Read more</a>
-
-            </div>
-
-            <div class="col-lg-3">
-
-                <div class="view overlay rounded z-depth-2">
-                    <img class="img-fluid" src="public/styles/image/work2.jpg" alt="Sample image">
-                    <a>
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <hr class="my-5">
-        <div class="row mx-5 wow slideInRight">
-            <div class="col-lg-3">
-                <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                    <img class="img-fluid" src="public/styles/image/work3.jpg" alt="Sample image">
-                    <a>
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-7">
-                <a href="#!" class="indigo-text">
-                    <h6 class="font-weight-bold mb-3"><i class="fa fa-suitcase pr-2"></i>Travels</h6>
-                </a>
-                <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                    magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia sit
-                    amet.</p>
-                <p>by <a><strong>Carine Fox</strong></a>, 11/08/2018</p>
-                <a class="btn btn-indigo btn-md">Read more</a>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="contact-section mb-5 ">
-        <div class="card mx-auto bg-light" style="width: 100%; height: 70vh;">
             <div class="row">
-                <div class="col-lg-8">
-                    <div class="card-body form">
-                        <h3 class="mt-4"><i class="fa fa-envelope pr-2"></i>Write to us:</h3>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" class="form-control " id="InputName" placeholder="Your name">
-                                </div>
+
+                <div class="col-lg-5">
+                    <div class="author-img">
+                        <img src="public/styles/image/zara.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="content">
+                        <h4>I'm Zara Huang</h4>
+                        <span>Senior Global PR Manager & Tech Lady</span>
+                        <p>Lorem Ipsum <b>Lorem Ipsum</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dos</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum</p>
+
+                        <div class="skills mt-50">
+                            <div class="skill-item">
+                                <a href="#section-contact" class="btn btn-success btn-rounded ">Connect!</a>
+                                <a href="#" class="btn btn-outline-dark">Download CV</a>
                             </div>
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" class="form-control " id="InputEmail" placeholder="Your email">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" class="form-control " id="InputPhone" placeholder="Your phone">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" class="form-control " id="InputCompany" placeholder="Your company">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form mb-0">
-                                    <textarea type="text" id="form-contact-message" class="form-control md-textarea"
-                                        rows="3"></textarea>
-                                    <label for="form-contact-message">Your message</label>
-                                    <a class="btn-floating btn-lg blue">
-                                        <i class="fa fa-send-o"></i>
-                                    </a>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4  text-white">
-                    <div class="card-body bg-info contact text-center white-text" style="height: 70vh;">
-                        <h3 class="my-4 pb-2">Contact information</h3>
-                        <ul class="text-lg-left list-unstyled ml-4">
-                            <li>
-                                <p><i class="fa fa-map-marker text-secondary pr-2"></i>Bellevue, WA, USA</p>
-                            </li>
-                            <li>
-                                <p><i class="fa fa-phone text-secondary pr-2"></i>+01 425 902 7917</p>
-                            </li>
-                            <li>
-                                <p><i class="fa fa-envelope text-secondary pr-2"></i>huang.h.zara@gmail.com</p>
-                            </li>
-                        </ul>
-                        <hr class="hr-light my-4">
-                        <ul class="list-inline text-center list-unstyled text-secondary">
-                            <li class="list-inline-item">
-                                <a class="p-2 fa-lg tw-ic">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="p-2 fa-lg li-ic">
-                                    <i class="fa fa-linkedin"> </i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="p-2 fa-lg ins-ic">
-                                    <i class="fa fa-instagram"> </i>
-                                </a>
-                            </li>
-                        </ul>
 
+            </div>
+        </div>
+        <div class="se-tring se-tring-gray">
+            <span class="left"></span>
+            <span class="right"></span>
+        </div>
+    </section>
+
+    <!-- End Hero ====
+            ======================================= -->
+
+
+    <!-- =====================================
+            ==== Start Services -->
+
+    <section class="services section-padding bg-gray" data-scroll-index="2">
+        <div class="container">
+            <div class="row">
+
+                <div class="section-head text-center col-sm-12">
+                    <h4>Our Services</h4>
+                    <h6>Awesome Featruse</h6>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="item">
+                        <span class="icon"><i class="icon-laptop"></i></span>
+                        <h6>Developments</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="item">
+                        <span class="icon"><i class="icon-briefcase"></i></span>
+                        <h6>Web Design</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="item">
+                        <span class="icon"><i class="icon-circle-compass"></i></span>
+                        <h6>Branding</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="item">
+                        <span class="icon"><i class="icon-layers"></i></span>
+                        <h6>Easy Installation</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="item">
+                        <span class="icon"><i class="icon-mobile"></i></span>
+                        <h6>Fully Responsive</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="item">
+                        <span class="icon"><i class="icon-megaphone"></i></span>
+                        <h6>Trusted Support</h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="se-tring se-tring-rev">
+            <span class="left"></span>
+            <span class="right"></span>
+        </div>
+    </section>
+
+    <!-- End Services ====
+            ======================================= -->
+
+
+    <!-- =====================================
+            ==== Start Portfolio -->
+
+    <section class="portfolio section-padding" data-scroll-index="3">
+        <div class="container">
+            <div class="row">
+
+                <div class="section-head text-center col-sm-12">
+                    <h4>My Work</h4>
+                    <h6>Latest Projects</h6>
+                </div>
+
+                <!-- filter links -->
+                <div class="filtering text-center mb-30 col-sm-12">
+                    <span data-filter='*' class="active">All</span>
+                    <span data-filter='.brand'>Brand</span>
+                    <span data-filter='.web'>Design</span>
+                    <span data-filter='.graphic'>Graphic</span>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <!-- gallery -->
+                <div class="gallery text-center full-width">
+
+                    <!-- gallery item -->
+                    <div class="col-md-6 col-lg-4 items graphic">
+                        <div class="item-img">
+                            <img src="public/styles/image/work1.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Crearive Design</h6>
+                                    <p>Work description here</p>
+                                </div>
+                                <a href="public/styles/image/work1.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
+                    <!-- gallery item -->
+                    <div class="col-md-6 col-lg-4 items web">
+                        <div class="item-img">
+                            <img src="public/styles/image/work1.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Crearive Design</h6>
+                                    <p>Work description here</p>
+                                </div>
+                                <a href="public/styles/image/work1.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-6 col-lg-4 items brand">
+                        <div class="item-img">
+                            <img src="public/styles/image/work1.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Crearive Design</h6>
+                                    <p>Work description here</p>
+                                </div>
+                                <a href="public/styles/image/work1.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-6 col-lg-4 items graphic">
+                        <div class="item-img">
+                            <img src="public/styles/image/work1.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Crearive Design</h6>
+                                    <p>Work description here</p>
+                                </div>
+                                <a href="public/styles/image/work1.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-6 col-lg-4 items web">
+                        <div class="item-img">
+                            <img src="public/styles/image/work1.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Crearive Design</h6>
+                                    <p>Work description here</p>
+                                </div>
+                                <a href="public/styles/image/work1.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-6 col-lg-4 items brand">
+                        <div class="item-img">
+                            <img src="public/styles/image/work1.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Crearive Design</h6>
+                                    <p>Work description here</p>
+                                </div>
+                                <a href="public/styles/image/work1.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-6 col-lg-4 items web">
+                        <div class="item-img">
+                            <img src="public/styles/image/work1.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Crearive Design</h6>
+                                    <p>Work description here</p>
+                                </div>
+                                <a href="public/styles/image/work1.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clear-fix"></div>
+
                 </div>
+
+            </div>
+        </div>
+        <div class="se-tring se-tring-gray">
+            <span class="left"></span>
+            <span class="right"></span>
+        </div>
+    </section>
+
+    <!-- End Portfolio ====
+            ======================================= -->
+
+
+
+
+    <!-- =====================================
+            ==== Start Contact -->
+
+    <section class="contact section-padding bg-gray" data-scroll-index="4">
+        <div class="container">
+            <div class="row">
+
+                <div class="section-head text-center col-sm-12">
+                    <h4>Contact Me!</h4>
+                    <h6>Get In Touch</h6>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-md-12">
+                    <form class="form" id="contact-form" method="post" action="contact.php">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="name" placeholder="Name *" required="required"
+                                            data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <input id="form_email" type="email" name="email" placeholder="Email *" required="required"
+                                            data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <input id="form_subject" type="text" name="subject" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea id="form_message" name="message" placeholder="Your Message *" rows="4"
+                                            required="required" data-error="Your message is required."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <button type="submit" class="butn butn-bg"><span>Send Message</span></button>
+                                    <div class="info">
+                                        <span><strong>Email</strong> : huang.h.zara@gmail.com</span>
+                                        <span><strong>Phone</strong> : +1 425 902 7917</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Footer Elements -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-        <a href="https://github.com/dhwang21"> Derrick Hwang</a>
-    </div>
-    <!-- Copyright -->
+    <!-- End Contact ====
+            ======================================= -->
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js
+    <!-- =====================================
+            ==== Start Footer -->
 
-        "></script>
+    <footer class="text-center">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="logo" href="#">
+                D.Hwang
+            </a>
+
+            <div class="social">
+                <a href="#0"><i class="fab fa-facebook-f"></i></a>
+                <a href="#0"><i class="fab fa-twitter"></i></a>
+                <a href="#0"><i class="fab fa-instagram"></i></a>
+                <a href="#0"><i class="fab fa-linkedin"></i></a>
+                <a href="#0"><i class="fab fa-behance"></i></a>
+            </div>
+
+            <p>&copy; 2018 Derrick Hwang</p>
+
+        </div>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="public/js/jquery-3.0.0.min.js"></script>
+    <script src="public/js/jquery-migrate-3.0.0.min.js"></script>
+
+    <!-- popper.min -->
+    <script src="public/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="public/js/bootstrap.min.js"></script>
+
+    <!-- scrollIt -->
+    <script src="public/js/scrollIt.min.js"></script>
+
+    <!-- owl carousel -->
+    <script src="public/js/owl.carousel.min.js"></script>
+
+    <!-- animated.headline -->
+    <script src="public/js/animated.headline.js"></script>
+
+    <!-- jquery.magnific-popup js -->
+    <script src="public/js/jquery.magnific-popup.min.js"></script>
+
+    <!-- stellar js -->
+    <script src="public/js/jquery.stellar.min.js"></script>
+
+    <!-- isotope.pkgd.min js -->
+    <script src="public/js/isotope.pkgd.min.js"></script>
+
+    <!-- validator js -->
+    <script src="public/js/validator.js"></script>
+
     <script src="public/app.js"></script>
 </body>
 
