@@ -2,18 +2,8 @@
 <html>
 
 <head>
-    <title>Zara Huang</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
-    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
-    <link href="styles/plugins.css" rel="stylesheet" type="text/css" />
-    <link href="styles/base.css" rel="stylesheet" type="text/css" />
-    <link href="styles/module.css" rel="stylesheet" type="text/css" />
-    <link href="styles/layout.css" rel="stylesheet" type="text/css" />
+        <title>Zara Huang</title>
+    <%- include('layout/head') %>
 
 
 </head>
@@ -64,7 +54,7 @@
                         <a class="nav-link" href="#" data-scroll-nav="1">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="2">Expertise</a>
+                        <a class="nav-link" href="#" data-scroll-nav="2">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-scroll-nav="3">Work</a>
@@ -240,7 +230,7 @@
                             <img src="\styles/image/work1.jpg" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info full-width vertical-center">
-                                    <h6>Crearive Design</h6>
+                                    <h6>Creative Design</h6>
                                     <p>Work description here</p>
                                 </div>
                                 <a href="\styles/image/work1.jpg" class="popimg">
@@ -377,7 +367,8 @@
 
                 <!-- Contact Form -->
                 <div class="col-md-12">
-                    <form class="form" id="contact-form" method="post" action="contact.php">
+                        {{msg}}
+                    <form class="form" id="contact-form" method="post" action="send">
 
                         <div class="messages"></div>
 
@@ -387,6 +378,7 @@
 
                                 <div class="col-md-4">
                                     <div class="form-group">
+                                        <label>Name</label>
                                         <input id="form_name" type="text" name="name" placeholder="Name *" required="required"
                                             data-error="Firstname is required.">
                                         <div class="help-block with-errors"></div>
@@ -394,6 +386,8 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
+                                            <label>Email</label>
+
                                         <input id="form_email" type="email" name="email" placeholder="Email *" required="required"
                                             data-error="Valid email is required.">
                                         <div class="help-block with-errors"></div>
@@ -401,11 +395,15 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
+                                            <label>Subject</label>
+
                                         <input id="form_subject" type="text" name="subject" placeholder="Subject">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
+                                            <label>Message</label>
+
                                         <textarea id="form_message" name="message" placeholder="Your Message *" rows="4"
                                             required="required" data-error="Your message is required."></textarea>
                                         <div class="help-block with-errors"></div>
@@ -430,60 +428,9 @@
     <!-- End Contact ====
             ======================================= -->
 
-
-    <!-- =====================================
-            ==== Start Footer -->
-
-    <footer class="text-center">
-        <div class="container">
-
-            <!-- Logo -->
-            <a class="logo" href="#">
-                D.Hwang
-            </a>
-
-            <div class="social">
-                <a href="#0"><i class="fab fa-twitter"></i></a>
-                <a href="#0"><i class="fab fa-linkedin"></i></a>
-            </div>
-
-            <p>&copy; 2018 Derrick Hwang</p>
-
-        </div>
-    </footer>
+            <%- include('layout/footer') %>
 
 
-    <!-- jQuery -->
-    <script src="\js/jquery-3.0.0.min.js"></script>
-    <script src="\js/jquery-migrate-3.0.0.min.js"></script>
-
-    <!-- popper.min -->
-    <script src="\js/popper.min.js"></script>
-    <!-- bootstrap -->
-    <script src="\js/bootstrap.min.js"></script>
-
-    <!-- scrollIt -->
-    <script src="\js/scrollIt.min.js"></script>
-
-    <!-- owl carousel -->
-    <script src="\js/owl.carousel.min.js"></script>
-
-    <!-- animated.headline -->
-    <script src="\js/animated.headline.js"></script>
-
-    <!-- jquery.magnific-popup js -->
-    <script src="\js/jquery.magnific-popup.min.js"></script>
-
-    <!-- stellar js -->
-    <script src="\js/jquery.stellar.min.js"></script>
-
-    <!-- isotope.pkgd.min js -->
-    <script src="\js/isotope.pkgd.min.js"></script>
-
-    <!-- validator js -->
-    <script src="\js/validator.js"></script>
-
-    <script src="\app.js"></script>
 </body>
 
 </html>
