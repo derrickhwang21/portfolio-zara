@@ -30,6 +30,12 @@ img {
   height: auto;
 }
 
+.img-zara{
+  height: 300px;
+  width: auto;
+
+}
+
 span, a, a:hover {
   display: inline-block;
   text-decoration: none;
