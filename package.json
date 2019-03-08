@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/dhwang21/portfolio-zara#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "dotenv": "^6.1.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "express-favicon": "^2.0.1",
+    "nodemailer": "^5.1.1",
     "nodemon": "^1.18.4",
     "superagent": "^4.0.0-beta.5",
     "wowjs": "^1.1.3"

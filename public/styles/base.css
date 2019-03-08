@@ -36,6 +36,12 @@ img {
 
 }
 
+.contact-image{
+  height: 300px;
+  width: auto;
+
+}
+
 .work-images{
   height: 220px;
   width: 100%;
